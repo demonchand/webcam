@@ -12,6 +12,7 @@ Use as you wish but please leave me a comment on the blog post or send me an e-m
 $ git clone git://github.com/lassebunk/webcam_app.git
 $ cd webcam_app
 $ bundle install # to make sure you have the Paperclip gem and correct version of Rails
+$ rake db:migrate
 $ rails s
 
 And go to http://localhost:3000/photos
